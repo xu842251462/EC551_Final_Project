@@ -5,5 +5,7 @@ Bringing the Analog World to Digital Design
 Team member:
 
 Conor Naughton 
+
 Bin Xu
+
 Yimin Xu
