@@ -1,0 +1,1361 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec  6 16:11:06 2022
+# Process ID: 5932
+# Current directory: X:/EC551/FinalProject/ec551_final29/ec551_final28.runs/synth_1
+# Command line: vivado.exe -log top_Game.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_Game.tcl
+# Log file: X:/EC551/FinalProject/ec551_final29/ec551_final28.runs/synth_1/top_Game.vds
+# Journal file: X:/EC551/FinalProject/ec551_final29/ec551_final28.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_Game.tcl -notrace
+Command: synth_design -top top_Game -part xc7a100tcsg324-1
+Starting synth_design
+WARNING: [Vivado_Tcl 4-393] The 'Synthesis' target of the following IPs are stale, please generate the output products using the generate_target or synth_ip command before running synth_design.
+X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+INFO: [IP_Flow 19-2162] IP 'xadc_wiz_0' is locked:
+* IP definition 'XADC Wizard (3.3)' for IP 'xadc_wiz_0' (customized with software release 2018.2) has a different revision in the IP Catalog.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 756 
+WARNING: [Synth 8-2611] redeclaration of ansi port sq_b1_x1 is not allowed [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:78]
+WARNING: [Synth 8-2611] redeclaration of ansi port sq_b1_x2 is not allowed [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:78]
+WARNING: [Synth 8-2611] redeclaration of ansi port sq_b1_y1 is not allowed [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:78]
+WARNING: [Synth 8-2611] redeclaration of ansi port sq_b1_y2 is not allowed [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:78]
+WARNING: [Synth 8-976] sq_b1_x1 has already been declared [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:78]
+WARNING: [Synth 8-2654] second declaration of sq_b1_x1 ignored [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:78]
+INFO: [Synth 8-994] sq_b1_x1 is declared here [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:52]
+INFO: [Synth 8-994] sq_b1_x2 is declared here [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:53]
+INFO: [Synth 8-994] sq_b1_y1 is declared here [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:54]
+INFO: [Synth 8-994] sq_b1_y2 is declared here [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:55]
+WARNING: [Synth 8-976] sq_c_x1 has already been declared [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:85]
+WARNING: [Synth 8-2654] second declaration of sq_c_x1 ignored [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:85]
+INFO: [Synth 8-994] sq_c_x1 is declared here [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:79]
+INFO: [Synth 8-994] sq_c_x2 is declared here [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:79]
+INFO: [Synth 8-994] sq_c_y1 is declared here [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:79]
+INFO: [Synth 8-994] sq_c_y2 is declared here [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:79]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 824.531 ; gain = 183.594
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_Game' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/top_Game.v:23]
+INFO: [Synth 8-6157] synthesizing module 'FSR_button_controller' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/new/FSR_button_controller.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'FSR_button_controller' (1#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/new/FSR_button_controller.v:23]
+WARNING: [Synth 8-7023] instance 'button_controller' of module 'FSR_button_controller' has 7 connections declared, but only 6 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/top_Game.v:85]
+INFO: [Synth 8-6157] synthesizing module 'top_pong' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:23]
+	Parameter RAM_WIDTH bound to: 32 - type: integer 
+	Parameter RAM_ADDR_BITS bound to: 9 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/clock_divider.v:23]
+	Parameter DIVISOR bound to: 500000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (2#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/clock_divider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'game' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:24]
+	Parameter PW bound to: 100 - type: integer 
+	Parameter PH bound to: 40 - type: integer 
+	Parameter PY bound to: 440 - type: integer 
+	Parameter PX bound to: 320 - type: integer 
+	Parameter PY1 bound to: 240 - type: integer 
+	Parameter PX1 bound to: 600 - type: integer 
+	Parameter IX bound to: 320 - type: integer 
+	Parameter IY bound to: 360 - type: integer 
+	Parameter B_SIZE bound to: 20 - type: integer 
+	Parameter SCREEN_WIDTH bound to: 640 - type: integer 
+	Parameter SCREEN_HEIGHT bound to: 480 - type: integer 
+	Parameter VRAM_DEPTH bound to: 307200 - type: integer 
+	Parameter VRAM_A_WIDTH bound to: 18 - type: integer 
+	Parameter VRAM_D_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'vga640x480' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/vga640x480.v:23]
+	Parameter HS_STA bound to: 16 - type: integer 
+	Parameter HS_END bound to: 112 - type: integer 
+	Parameter HA_STA bound to: 160 - type: integer 
+	Parameter VS_STA bound to: 490 - type: integer 
+	Parameter VS_END bound to: 492 - type: integer 
+	Parameter VA_END bound to: 480 - type: integer 
+	Parameter LINE bound to: 800 - type: integer 
+	Parameter SCREEN bound to: 525 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vga640x480' (3#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/vga640x480.v:23]
+WARNING: [Synth 8-7023] instance 'display' of module 'vga640x480' has 11 connections declared, but only 8 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:95]
+INFO: [Synth 8-6157] synthesizing module 'paddle' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/paddle.v:23]
+	Parameter P_WIDTH bound to: 100 - type: integer 
+	Parameter P_HEIGHT bound to: 40 - type: integer 
+	Parameter IX bound to: 320 - type: integer 
+	Parameter IY bound to: 440 - type: integer 
+	Parameter IX_DIR bound to: 0 - type: integer 
+	Parameter D_WIDTH bound to: 640 - type: integer 
+	Parameter D_HEIGHT bound to: 480 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'paddle' (4#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/paddle.v:23]
+INFO: [Synth 8-6157] synthesizing module 'paddleh' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/paddleh.v:25]
+	Parameter P_WIDTH bound to: 100 - type: integer 
+	Parameter P_HEIGHT bound to: 40 - type: integer 
+	Parameter IX bound to: 600 - type: integer 
+	Parameter IY bound to: 240 - type: integer 
+	Parameter IX_DIR bound to: 0 - type: integer 
+	Parameter D_WIDTH bound to: 640 - type: integer 
+	Parameter D_HEIGHT bound to: 480 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'paddleh' (5#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/paddleh.v:25]
+INFO: [Synth 8-6157] synthesizing module 'square' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+	Parameter PX bound to: 600 - type: integer 
+	Parameter PY bound to: 440 - type: integer 
+	Parameter PH bound to: 40 - type: integer 
+	Parameter H_SIZE bound to: 20 - type: integer 
+	Parameter IX bound to: 320 - type: integer 
+	Parameter IY bound to: 360 - type: integer 
+	Parameter IY_DIR bound to: 0 - type: integer 
+	Parameter D_WIDTH bound to: 640 - type: integer 
+	Parameter D_HEIGHT bound to: 480 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'debounce' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/debounce.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'debounce' (6#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/debounce.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'square' (7#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+WARNING: [Synth 8-7023] instance 'b0' of module 'square' has 19 connections declared, but only 18 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:155]
+INFO: [Synth 8-6157] synthesizing module 'square__parameterized0' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+	Parameter PX bound to: 10 - type: integer 
+	Parameter PY bound to: 440 - type: integer 
+	Parameter PH bound to: 40 - type: integer 
+	Parameter H_SIZE bound to: 20 - type: integer 
+	Parameter IX bound to: 30 - type: integer 
+	Parameter IY bound to: 340 - type: integer 
+	Parameter IY_DIR bound to: 0 - type: integer 
+	Parameter D_WIDTH bound to: 640 - type: integer 
+	Parameter D_HEIGHT bound to: 480 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'square__parameterized0' (7#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+WARNING: [Synth 8-7023] instance 'b1' of module 'square' has 19 connections declared, but only 13 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:177]
+INFO: [Synth 8-6157] synthesizing module 'square__parameterized1' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+	Parameter PX bound to: 10 - type: integer 
+	Parameter PY bound to: 440 - type: integer 
+	Parameter PH bound to: 40 - type: integer 
+	Parameter H_SIZE bound to: 20 - type: integer 
+	Parameter IX bound to: 50 - type: integer 
+	Parameter IY bound to: 120 - type: integer 
+	Parameter IY_DIR bound to: 0 - type: integer 
+	Parameter D_WIDTH bound to: 640 - type: integer 
+	Parameter D_HEIGHT bound to: 480 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'square__parameterized1' (7#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+WARNING: [Synth 8-7023] instance 'b2' of module 'square' has 19 connections declared, but only 13 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:193]
+INFO: [Synth 8-6157] synthesizing module 'square__parameterized2' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+	Parameter PX bound to: 10 - type: integer 
+	Parameter PY bound to: 440 - type: integer 
+	Parameter PH bound to: 40 - type: integer 
+	Parameter H_SIZE bound to: 20 - type: integer 
+	Parameter IX bound to: 30 - type: integer 
+	Parameter IY bound to: 140 - type: integer 
+	Parameter IY_DIR bound to: 0 - type: integer 
+	Parameter D_WIDTH bound to: 640 - type: integer 
+	Parameter D_HEIGHT bound to: 480 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'square__parameterized2' (7#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+WARNING: [Synth 8-7023] instance 'b3' of module 'square' has 19 connections declared, but only 13 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:209]
+INFO: [Synth 8-6157] synthesizing module 'square__parameterized3' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+	Parameter PX bound to: 10 - type: integer 
+	Parameter PY bound to: 440 - type: integer 
+	Parameter PH bound to: 40 - type: integer 
+	Parameter H_SIZE bound to: 20 - type: integer 
+	Parameter IX bound to: 20 - type: integer 
+	Parameter IY bound to: 100 - type: integer 
+	Parameter IY_DIR bound to: 0 - type: integer 
+	Parameter D_WIDTH bound to: 640 - type: integer 
+	Parameter D_HEIGHT bound to: 480 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'square__parameterized3' (7#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+WARNING: [Synth 8-7023] instance 'b4' of module 'square' has 19 connections declared, but only 13 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:225]
+INFO: [Synth 8-6157] synthesizing module 'square__parameterized4' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+	Parameter PX bound to: 10 - type: integer 
+	Parameter PY bound to: 440 - type: integer 
+	Parameter PH bound to: 40 - type: integer 
+	Parameter H_SIZE bound to: 20 - type: integer 
+	Parameter IX bound to: 70 - type: integer 
+	Parameter IY bound to: 240 - type: integer 
+	Parameter IY_DIR bound to: 0 - type: integer 
+	Parameter D_WIDTH bound to: 640 - type: integer 
+	Parameter D_HEIGHT bound to: 480 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'square__parameterized4' (7#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+WARNING: [Synth 8-7023] instance 'b5' of module 'square' has 19 connections declared, but only 13 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:241]
+INFO: [Synth 8-6157] synthesizing module 'square__parameterized5' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+	Parameter PX bound to: 10 - type: integer 
+	Parameter PY bound to: 440 - type: integer 
+	Parameter PH bound to: 40 - type: integer 
+	Parameter H_SIZE bound to: 20 - type: integer 
+	Parameter IX bound to: 370 - type: integer 
+	Parameter IY bound to: 150 - type: integer 
+	Parameter IY_DIR bound to: 0 - type: integer 
+	Parameter D_WIDTH bound to: 640 - type: integer 
+	Parameter D_HEIGHT bound to: 480 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'square__parameterized5' (7#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:23]
+WARNING: [Synth 8-7023] instance 'b6' of module 'square' has 19 connections declared, but only 13 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:257]
+INFO: [Synth 8-4471] merging register 'VGA_G_reg[3:0]' into 'VGA_R_reg[3:0]' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:292]
+INFO: [Synth 8-4471] merging register 'VGA_B_reg[3:0]' into 'VGA_R_reg[3:0]' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:293]
+WARNING: [Synth 8-6014] Unused sequential element VGA_G_reg was removed.  [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:292]
+WARNING: [Synth 8-6014] Unused sequential element VGA_B_reg was removed.  [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:293]
+INFO: [Synth 8-6155] done synthesizing module 'game' (8#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/game.v:24]
+INFO: [Synth 8-6157] synthesizing module 'menu_screen' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/menu_screen.v:23]
+	Parameter IX bound to: 320 - type: integer 
+	Parameter IY bound to: 440 - type: integer 
+	Parameter B_SIZE bound to: 20 - type: integer 
+	Parameter SCREEN_WIDTH bound to: 640 - type: integer 
+	Parameter SCREEN_HEIGHT bound to: 480 - type: integer 
+	Parameter VRAM_DEPTH bound to: 307200 - type: integer 
+	Parameter VRAM_A_WIDTH bound to: 18 - type: integer 
+	Parameter VRAM_D_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-251] Loading palette. [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/menu_screen.v:102]
+INFO: [Synth 8-3876] $readmem data file 'over_palette.mem' is read successfully [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/menu_screen.v:103]
+WARNING: [Synth 8-7023] instance 'display' of module 'vga640x480' has 11 connections declared, but only 9 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/menu_screen.v:54]
+INFO: [Synth 8-6157] synthesizing module 'start_square' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/start_square.v:23]
+	Parameter H_SIZE bound to: 20 - type: integer 
+	Parameter IX bound to: 320 - type: integer 
+	Parameter IY bound to: 440 - type: integer 
+	Parameter IX_DIR bound to: 1 - type: integer 
+	Parameter IY_DIR bound to: 1 - type: integer 
+	Parameter D_WIDTH bound to: 640 - type: integer 
+	Parameter D_HEIGHT bound to: 480 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'start_square' (9#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/start_square.v:23]
+WARNING: [Synth 8-7023] instance 'ball' of module 'start_square' has 8 connections declared, but only 7 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/menu_screen.v:66]
+INFO: [Synth 8-6157] synthesizing module 'sram' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/sram.v:25]
+	Parameter ADDR_WIDTH bound to: 18 - type: integer 
+	Parameter DATA_WIDTH bound to: 6 - type: integer 
+	Parameter DEPTH bound to: 307200 - type: integer 
+	Parameter MEMFILE bound to: over.mem - type: string 
+INFO: [Synth 8-251] Loading memor @ÒÜÞR·-N3þÂ [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/sram.v:38]
+INFO: [Synth 8-3876] $readmem data file 'over.mem' is read successfully [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/sram.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'sram' (10#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/sram.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'menu_screen' (11#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/menu_screen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bg_gen' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/imports/hdl/bg_gen.v:25]
+	Parameter MEMFILE bound to: gameover.mem - type: string 
+	Parameter PALETTE bound to: gameover_palette.mem - type: string 
+	Parameter SCREEN_WIDTH bound to: 640 - type: integer 
+	Parameter SCREEN_HEIGHT bound to: 480 - type: integer 
+	Parameter VRAM_DEPTH bound to: 307200 - type: integer 
+	Parameter VRAM_A_WIDTH bound to: 18 - type: integer 
+	Parameter VRAM_D_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-251] Loading palette. [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/imports/hdl/bg_gen.v:90]
+INFO: [Synth 8-3876] $readmem data file 'gameover_palette.mem' is read successfully [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/imports/hdl/bg_gen.v:91]
+WARNING: [Synth 8-7023] instance 'display' of module 'vga640x480' has 11 connections declared, but only 8 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/imports/hdl/bg_gen.v:53]
+INFO: [Synth 8-6157] synthesizing module 'sram__parameterized0' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/sram.v:25]
+	Parameter ADDR_WIDTH bound to: 18 - type: integer 
+	Parameter DATA_WIDTH bound to: 6 - type: integer 
+	Parameter DEPTH bound to: 307200 - type: integer 
+	Parameter MEMFILE bound to: gameover.mem - type: string 
+INFO: [Synth 8-251] Loading memor ¨4JCR·-N3þÂ [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/sram.v:38]
+INFO: [Synth 8-3876] $readmem data file 'gameover.mem' is read successfully [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/sram.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'sram__parameterized0' (11#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/sram.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'bg_gen' (12#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/imports/hdl/bg_gen.v:25]
+INFO: [Synth 8-6157] synthesizing module 'score_to_7seg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/score_to_7seg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dec_bcd' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/dec_bcd.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dec_bcd' (13#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/dec_bcd.v:23]
+WARNING: [Synth 8-689] width (9) of port connection 'bin' does not match port width (8) of module 'dec_bcd' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/score_to_7seg.v:31]
+WARNING: [Synth 8-689] width (8) of port connection 'bcd' does not match port width (12) of module 'dec_bcd' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/score_to_7seg.v:31]
+INFO: [Synth 8-6157] synthesizing module 'num_hex' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/num_hex.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'num_hex' (14#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/num_hex.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'score_to_7seg' (15#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/score_to_7seg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'increment_one' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/increment_one.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'increment_one' (16#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/increment_one.v:23]
+INFO: [Synth 8-6157] synthesizing module 'end_capture' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/end_capture.v:23]
+WARNING: [Synth 8-7023] instance 'display' of module 'vga640x480' has 11 connections declared, but only 8 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/end_capture.v:66]
+INFO: [Synth 8-4471] merging register 'VGA_G_C_reg[3:0]' into 'VGA_R_C_reg[3:0]' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/end_capture.v:88]
+INFO: [Synth 8-4471] merging register 'VGA_B_C_reg[3:0]' into 'VGA_R_C_reg[3:0]' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/end_capture.v:89]
+WARNING: [Synth 8-6014] Unused sequential element VGA_G_C_reg was removed.  [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/end_capture.v:88]
+WARNING: [Synth 8-6014] Unused sequential element VGA_B_C_reg was removed.  [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/end_capture.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'end_capture' (17#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/end_capture.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bram' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/bram.v:1]
+	Parameter RAM_WIDTH bound to: 32 - type: integer 
+	Parameter RAM_ADDR_BITS bound to: 9 - type: integer 
+	Parameter INIT_START_ADDR bound to: 0 - type: integer 
+	Parameter INIT_END_ADDR bound to: 10 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* RAM_STYLE = "BLOCK" *) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/bram.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'bram' (18#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/bram.v:1]
+WARNING: [Synth 8-3848] Net highest_score in module/entity top_pong does not have driver. [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:52]
+WARNING: [Synth 8-3848] Net ram_enable in module/entity top_pong does not have driver. [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:161]
+WARNING: [Synth 8-3848] Net write_enable in module/entity top_pong does not have driver. [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:162]
+WARNING: [Synth 8-3848] Net address in module/entity top_pong does not have driver. [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:163]
+WARNING: [Synth 8-3848] Net input_data in module/entity top_pong does not have driver. [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:164]
+INFO: [Synth 8-6155] done synthesizing module 'top_pong' (19#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:23]
+INFO: [Synth 8-6157] synthesizing module 'analog2game' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/analog2game.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'analog2game' (20#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/analog2game.v:23]
+INFO: [Synth 8-6157] synthesizing module 'top_XADC' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/top.v:22]
+INFO: [Synth 8-6157] synthesizing module 'xadc_wiz_0' [X:/EC551/FinalProject/ec551_final29/ec551_final28.runs/synth_1/.Xil/Vivado-5932-ECE-PHO115-13/realtime/xadc_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'xadc_wiz_0' (21#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.runs/synth_1/.Xil/Vivado-5932-ECE-PHO115-13/realtime/xadc_wiz_0_stub.v:5]
+WARNING: [Synth 8-7023] instance 'XLXI_7' of module 'xadc_wiz_0' has 23 connections declared, but only 22 given [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/top.v:59]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000000010 is unreachable [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/top.v:172]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000000011 is unreachable [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/top.v:173]
+INFO: [Synth 8-6157] synthesizing module 'DigitToSeg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/DigitToSeg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux4_4bus' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/mux4_4bus.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'mux4_4bus' (22#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/mux4_4bus.v:21]
+INFO: [Synth 8-6157] synthesizing module 'segClkDevider' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/segClkDevider.v:21]
+	Parameter constantNumber bound to: 10000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'segClkDevider' (23#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/segClkDevider.v:21]
+INFO: [Synth 8-6157] synthesizing module 'counter3bit' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/counter3bit.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'counter3bit' (24#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/counter3bit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'decoder_3_8' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/decoder3_8.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_3_8' (25#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/decoder3_8.v:21]
+WARNING: [Synth 8-3848] Net seg in module/entity DigitToSeg does not have driver. [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/DigitToSeg.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'DigitToSeg' (26#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/DigitToSeg.v:23]
+WARNING: [Synth 8-6014] Unused sequential element decimal_reg was removed.  [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/top.v:134]
+INFO: [Synth 8-6155] done synthesizing module 'top_XADC' (27#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/top.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'top_Game' (28#1) [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/top_Game.v:23]
+WARNING: [Synth 8-3331] design counter3bit has unconnected port rst
+WARNING: [Synth 8-3331] design DigitToSeg has unconnected port seg[6]
+WARNING: [Synth 8-3331] design DigitToSeg has unconnected port seg[5]
+WARNING: [Synth 8-3331] design DigitToSeg has unconnected port seg[4]
+WARNING: [Synth 8-3331] design DigitToSeg has unconnected port seg[3]
+WARNING: [Synth 8-3331] design DigitToSeg has unconnected port seg[2]
+WARNING: [Synth 8-3331] design DigitToSeg has unconnected port seg[1]
+WARNING: [Synth 8-3331] design DigitToSeg has unconnected port seg[0]
+WARNING: [Synth 8-3331] design end_capture has unconnected port endgame
+WARNING: [Synth 8-3331] design end_capture has unconnected port score[8]
+WARNING: [Synth 8-3331] design end_capture has unconnected port score[7]
+WARNING: [Synth 8-3331] design end_capture has unconnected port score[6]
+WARNING: [Synth 8-3331] design end_capture has unconnected port score[5]
+WARNING: [Synth 8-3331] design end_capture has unconnected port score[4]
+WARNING: [Synth 8-3331] design end_capture has unconnected port score[3]
+WARNING: [Synth 8-3331] design end_capture has unconnected port score[2]
+WARNING: [Synth 8-3331] design end_capture has unconnected port score[1]
+WARNING: [Synth 8-3331] design end_capture has unconnected port score[0]
+WARNING: [Synth 8-3331] design score_to_7seg has unconnected port currscore[8]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y1[11]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y1[10]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y1[9]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y1[8]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y1[7]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y1[6]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y1[5]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y1[4]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y1[3]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y1[2]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y1[1]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y1[0]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y2[11]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y2[10]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y2[9]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y2[8]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y2[7]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y2[6]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y2[5]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y2[4]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y2[3]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y2[2]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y2[1]
+WARNING: [Synth 8-3331] design square__parameterized5 has unconnected port i_y2[0]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y1[11]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y1[10]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y1[9]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y1[8]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y1[7]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y1[6]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y1[5]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y1[4]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y1[3]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y1[2]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y1[1]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y1[0]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y2[11]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y2[10]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y2[9]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y2[8]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y2[7]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y2[6]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y2[5]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y2[4]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y2[3]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y2[2]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y2[1]
+WARNING: [Synth 8-3331] design square__parameterized4 has unconnected port i_y2[0]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y1[11]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y1[10]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y1[9]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y1[8]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y1[7]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y1[6]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y1[5]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y1[4]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y1[3]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y1[2]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y1[1]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y1[0]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y2[11]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y2[10]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y2[9]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y2[8]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y2[7]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y2[6]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y2[5]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y2[4]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y2[3]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y2[2]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y2[1]
+WARNING: [Synth 8-3331] design square__parameterized3 has unconnected port i_y2[0]
+WARNING: [Synth 8-3331] design square__parameterized2 has unconnected port i_y1[11]
+WARNING: [Synth 8-3331] design square__parameterized2 has unconnected port i_y1[10]
+WARNING: [Synth 8-3331] design square__parameterized2 has unconnected port i_y1[9]
+WARNING: [Synth 8-3331] design square__parameterized2 has unconnected port i_y1[8]
+WARNING: [Synth 8-3331] design square__parameterized2 has unconnected port i_y1[7]
+WARNING: [Synth 8-3331] design square__parameterized2 has unconnected port i_y1[6]
+WARNING: [Synth 8-3331] design square__parameterized2 has unconnected port i_y1[5]
+WARNING: [Synth 8-3331] design square__parameterized2 has unconnected port i_y1[4]
+WARNING: [Synth 8-3331] design square__parameterized2 has unconnected port i_y1[3]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 1152.977 ; gain = 512.039
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:26 . Memory (MB): peak = 1152.977 ; gain = 512.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:26 . Memory (MB): peak = 1152.977 ; gain = 512.039
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [x:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0/xadc_wiz_0_in_context.xdc] for cell 'top_ADC/XLXI_7'
+Finished Parsing XDC File [x:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0/xadc_wiz_0_in_context.xdc] for cell 'top_ADC/XLXI_7'
+Parsing XDC File [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_Game_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_Game_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1162.875 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1162.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:42 . Memory (MB): peak = 1162.875 ; gain = 521.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:42 . Memory (MB): peak = 1162.875 ; gain = 521.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for top_ADC/XLXI_7. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:42 . Memory (MB): peak = 1162.875 ; gain = 521.938
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/paddle.v:66]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:104]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:103]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:104]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:103]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:104]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:103]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:104]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:103]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:104]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:103]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:104]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:103]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:104]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/square.v:103]
+INFO: [Synth 8-5546] ROM "palette" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "palette" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'seg_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:188]
+WARNING: [Synth 8-327] inferring latch for variable 'sq_c_x1_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:135]
+WARNING: [Synth 8-327] inferring latch for variable 'sq_c_x2_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:136]
+WARNING: [Synth 8-327] inferring latch for variable 'sq_c_y1_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:137]
+WARNING: [Synth 8-327] inferring latch for variable 'sq_c_y2_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:138]
+WARNING: [Synth 8-327] inferring latch for variable 'sq_d_x1_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:139]
+WARNING: [Synth 8-327] inferring latch for variable 'sq_d_x2_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:140]
+WARNING: [Synth 8-327] inferring latch for variable 'sq_d_y1_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:141]
+WARNING: [Synth 8-327] inferring latch for variable 'sq_d_y2_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:142]
+WARNING: [Synth 8-327] inferring latch for variable 'sq_d1_x1_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:143]
+WARNING: [Synth 8-327] inferring latch for variable 'sq_d1_x2_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:144]
+WARNING: [Synth 8-327] inferring latch for variable 'sq_d1_y1_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:145]
+WARNING: [Synth 8-327] inferring latch for variable 'sq_d1_y2_reg' [X:/EC551/FinalProject/ec551_final29/ec551_final28.srcs/sources_1/all_sources/topmodule.v:146]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:53 . Memory (MB): peak = 1162.875 ; gain = 521.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     29 Bit       Adders := 7     
+	   2 Input     17 Bit       Adders := 4     
+	   2 Input     12 Bit       Adders := 40    
+	   3 Input     12 Bit       Adders := 15    
+	   2 Input     10 Bit       Adders := 12    
+	   2 Input      9 Bit       Adders := 7     
+	   2 Input      4 Bit       Adders := 36    
+	   2 Input      3 Bit       Adders := 3     
+	   2 Input      1 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 12    
++---Registers : 
+	               32 Bit    Registers := 2     
+	               29 Bit    Registers := 7     
+	               16 Bit    Registers := 5     
+	               12 Bit    Registers := 21    
+	               10 Bit    Registers := 8     
+	                9 Bit    Registers := 7     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 7     
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 30    
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 81    
++---RAMs : 
+	            1536K Bit         RAMs := 2     
+	               6K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 43    
+	  65 Input     12 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 20    
+	   2 Input      9 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      7 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 65    
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 194   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module FSR_button_controller 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module clock_divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module vga640x480 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 3     
++---Registers : 
+	               10 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 5     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module paddle 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 4     
+	   3 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module paddleh 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 4     
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module debounce 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module square 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     29 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 4     
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               29 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 24    
+Module square__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     29 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 4     
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               29 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 24    
+Module square__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     29 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 4     
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               29 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 24    
+Module square__parameterized2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     29 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 4     
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               29 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 24    
+Module square__parameterized3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     29 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 4     
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               29 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 24    
+Module square__parameterized4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     29 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 4     
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               29 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 24    
+Module square__parameterized5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     29 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 4     
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               29 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 24    
+Module game 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module start_square 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 4     
++---Registers : 
+	                1 Bit    Registers := 2     
+Module sram 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
++---RAMs : 
+	            1536K Bit         RAMs := 1     
+Module menu_screen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 12    
++---Registers : 
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  65 Input     12 Bit        Muxes := 1     
+Module sram__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
++---RAMs : 
+	            1536K Bit         RAMs := 1     
+Module bg_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  65 Input     12 Bit        Muxes := 1     
+Module dec_bcd 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 11    
+	   2 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 7     
+Module num_hex 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+Module score_to_7seg 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+Module increment_one 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
+Module end_capture 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module bram 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
++---RAMs : 
+	               6K Bit         RAMs := 1     
+Module top_pong 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 9     
+	   2 Input      1 Bit        Muxes := 8     
+Module analog2game 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module segClkDevider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module counter3bit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+Module top_XADC 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 7     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP address_reg, operation Mode is: (C+(A:0x280)*B)'.
+DSP Report: register address_reg is absorbed into DSP address_reg.
+DSP Report: operator address0 is absorbed into DSP address_reg.
+DSP Report: operator address1 is absorbed into DSP address_reg.
+DSP Report: Generating DSP address_reg, operation Mode is: (0 or C)+(A:0x280)*B.
+DSP Report: register address_reg is absorbed into DSP address_reg.
+DSP Report: operator address0 is absorbed into DSP address_reg.
+DSP Report: operator address1 is absorbed into DSP address_reg.
+DSP Report: operator address0 is absorbed into DSP address_reg.
+WARNING: [Synth 8-6014] Unused sequential element bram_inst/ram_name_reg was removed. 
+DSP Report: Generating DSP dig02, operation Mode is: (A:0x3d090)*B.
+DSP Report: operator dig02 is absorbed into DSP dig02.
+INFO: [Synth 8-3886] merging instance 'top_ADC/Address_in_reg[0]' (FDR) to 'top_ADC/Address_in_reg[6]'
+INFO: [Synth 8-3886] merging instance 'top_ADC/Address_in_reg[1]' (FDS) to 'top_ADC/Address_in_reg[4]'
+INFO: [Synth 8-3886] merging instance 'top_ADC/Address_in_reg[2]' (FDR) to 'top_ADC/Address_in_reg[6]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (top_ADC/\Address_in_reg[4] )
+INFO: [Synth 8-3886] merging instance 'top_ADC/Address_in_reg[5]' (FDR) to 'top_ADC/Address_in_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_ADC/\Address_in_reg[6] )
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__11' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__5' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__4'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__12' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__6' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__0' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__4'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__13' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__7' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__1' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__4'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__14' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__8' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__2' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__4'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__16' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__15'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__10' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__15'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__4' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__3'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__15' (FDE) to 'top_Pong/end_screeni_16/end_screen/vram/memory_array_reg_mux_sel__9'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/pong/b6/endgame_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/pong/b5/endgame_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/pong/b4/endgame_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/pong/b3/endgame_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/pong/b2/endgame_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/pong/b1/endgame_reg)
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p2/x_reg[2]' (FDRE) to 'top_Pong/pong/p2/x_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ag/Speed_reg[0] )
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p1/y_reg[2]' (FDRE) to 'top_Pong/pong/p1/y_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__11' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__5' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__4'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__12' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__6' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__0' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__4'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__13' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__7' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__1' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__4'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__14' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__8' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__2' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__4'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__16' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__15'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__10' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__15'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__4' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__3'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__15' (FDE) to 'top_Pong/nolabel_line111i_3/nolabel_line111/vram/memory_array_reg_mux_sel__9'
+INFO: [Synth 8-3886] merging instance 'top_Pong/highest/hex2/hex_seg_reg[0]' (FD) to 'top_Pong/highest/hex1/hex_seg_reg[0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (top_Pong/\highest/hex1/hex_seg_reg[0] )
+INFO: [Synth 8-3886] merging instance 'top_Pong/highest/hex2/hex_seg_reg[1]' (FD) to 'top_Pong/highest/hex1/hex_seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/highest/hex1/hex_seg_reg[1]' (FD) to 'top_Pong/highest/hex1/hex_seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/highest/hex2/hex_seg_reg[2]' (FD) to 'top_Pong/highest/hex1/hex_seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/highest/hex1/hex_seg_reg[2]' (FD) to 'top_Pong/highest/hex1/hex_seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/highest/hex2/hex_seg_reg[3]' (FD) to 'top_Pong/highest/hex1/hex_seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/highest/hex1/hex_seg_reg[3]' (FD) to 'top_Pong/highest/hex1/hex_seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/highest/hex2/hex_seg_reg[4]' (FD) to 'top_Pong/highest/hex1/hex_seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/highest/hex1/hex_seg_reg[4]' (FD) to 'top_Pong/highest/hex1/hex_seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/highest/hex2/hex_seg_reg[5]' (FD) to 'top_Pong/highest/hex1/hex_seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/highest/hex1/hex_seg_reg[5]' (FD) to 'top_Pong/highest/hex1/hex_seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/highest/hex2/hex_seg_reg[6]' (FD) to 'top_Pong/highest/hex1/hex_seg_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/\highest/hex1/hex_seg_reg[6] )
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/colour_reg[0]' (FDR) to 'top_Pong/end_screen/colour_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111/color_reg[0]' (FDR) to 'top_Pong/nolabel_line111/color_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/colour_reg[1]' (FDR) to 'top_Pong/end_screen/colour_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111/color_reg[1]' (FDR) to 'top_Pong/nolabel_line111/color_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/colour_reg[2]' (FDR) to 'top_Pong/end_screen/colour_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111/color_reg[2]' (FDR) to 'top_Pong/nolabel_line111/color_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/colour_reg[3]' (FDR) to 'top_Pong/end_screen/colour_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111/color_reg[3]' (FDR) to 'top_Pong/nolabel_line111/color_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/colour_reg[4]' (FDR) to 'top_Pong/end_screen/colour_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111/color_reg[4]' (FDR) to 'top_Pong/nolabel_line111/color_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/colour_reg[5]' (FDR) to 'top_Pong/end_screen/colour_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111/color_reg[5]' (FDR) to 'top_Pong/nolabel_line111/color_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/colour_reg[6]' (FDR) to 'top_Pong/end_screen/colour_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111/color_reg[6]' (FDR) to 'top_Pong/nolabel_line111/color_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/colour_reg[7]' (FDR) to 'top_Pong/end_screen/colour_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111/color_reg[7]' (FDR) to 'top_Pong/nolabel_line111/color_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/colour_reg[8]' (FDR) to 'top_Pong/end_screen/colour_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111/color_reg[8]' (FDR) to 'top_Pong/nolabel_line111/color_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/colour_reg[9]' (FDR) to 'top_Pong/end_screen/colour_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111/color_reg[9]' (FDR) to 'top_Pong/nolabel_line111/color_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/colour_reg[10]' (FDR) to 'top_Pong/end_screen/colour_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/nolabel_line111/color_reg[10]' (FDR) to 'top_Pong/nolabel_line111/color_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/sq_c_x1_reg[0]' (LD) to 'top_Pong/sq_c_x2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/sq_c_y2_reg[0]' (LD) to 'top_Pong/sq_c_y1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/sq_d1_x1_reg[0]' (LD) to 'top_Pong/sq_d1_x2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/sq_d1_y2_reg[0]' (LD) to 'top_Pong/sq_d1_y1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/sq_d1_y2_reg[1]' (LD) to 'top_Pong/sq_d1_y1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/sq_d_x1_reg[0]' (LD) to 'top_Pong/sq_d_x2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/sq_d_y2_reg[0]' (LD) to 'top_Pong/sq_d_y1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/sq_d_y2_reg[1]' (LD) to 'top_Pong/sq_d_y1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p2/x_reg[0]' (FDRE) to 'top_Pong/pong/p2/x_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p2/x_reg[1]' (FDRE) to 'top_Pong/pong/p2/x_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p2/x_reg[3]' (FDSE) to 'top_Pong/pong/p2/x_reg[9]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p2/x_reg[4]' (FDSE) to 'top_Pong/pong/p2/x_reg[9]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p2/x_reg[5]' (FDRE) to 'top_Pong/pong/p2/x_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p2/x_reg[6]' (FDSE) to 'top_Pong/pong/p2/x_reg[9]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p2/x_reg[7]' (FDRE) to 'top_Pong/pong/p2/x_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p2/x_reg[8]' (FDRE) to 'top_Pong/pong/p2/x_reg[11]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (top_Pong/pong/p2/\x_reg[9] )
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p2/x_reg[10]' (FDRE) to 'top_Pong/pong/p2/x_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/pong/p2/\x_reg[11] )
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p1/y_reg[0]' (FDRE) to 'top_Pong/pong/p1/y_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p1/y_reg[1]' (FDRE) to 'top_Pong/pong/p1/y_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p1/y_reg[3]' (FDSE) to 'top_Pong/pong/p1/y_reg[8]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p1/y_reg[4]' (FDSE) to 'top_Pong/pong/p1/y_reg[8]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p1/y_reg[5]' (FDSE) to 'top_Pong/pong/p1/y_reg[8]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p1/y_reg[6]' (FDRE) to 'top_Pong/pong/p1/y_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p1/y_reg[7]' (FDSE) to 'top_Pong/pong/p1/y_reg[8]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (top_Pong/pong/p1/\y_reg[8] )
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p1/y_reg[9]' (FDRE) to 'top_Pong/pong/p1/y_reg[11]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/pong/p1/y_reg[10]' (FDRE) to 'top_Pong/pong/p1/y_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/pong/p1/\y_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\button_controller/neither_flag_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (top_ADC/\LED_reg[0] )
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/VGA_B_reg[0]' (FD) to 'top_Pong/end_screen/VGA_R_reg[2]'
+INFO: [Synth 8-3886] merging instance 'top_Pong/end_screen/VGA_B_reg[1]' (FD) to 'top_Pong/end_screen/VGA_R_reg[2]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (top_Pong/\highest/anode_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (top_Pong/\sq_d_y1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/\sq_d_y1_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/pong/p1/\x_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (top_Pong/\highest/segment_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/\highest/segment_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/\sq_d_x2_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (sq_d_x2_reg[0]) is unused and will be removed from module top_pong.
+WARNING: [Synth 8-3332] Sequential element (sq_d_y1_reg[8]) is unused and will be removed from module top_pong.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (top_Pong/\sq_d_y1_reg[3] )
+WARNING: [Synth 8-3332] Sequential element (sq_d_y1_reg[3]) is unused and will be removed from module top_pong.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:01:10 . Memory (MB): peak = 1177.352 ; gain = 536.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++----------------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name           | RTL Object       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|sram:                 | memory_array_reg | 256 K x 6(NO_CHANGE)   | W | R |                        |   |   | Port A           | 0      | 48     | 
+|sram__parameterized0: | memory_array_reg | 256 K x 6(NO_CHANGE)   | W | R |                        |   |   | Port A           | 0      | 48     | 
++----------------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping          | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|menu_screen | (C+(A:0x280)*B)'     | 9      | 10     | 10     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|bg_gen      | (0 or C)+(A:0x280)*B | 9      | 10     | 10     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|top_XADC    | (A:0x3d090)*B        | 18     | 12     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_3_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_3_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_3_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_3_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_3_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_3_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_5_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_5_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_5_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_5_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_5_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_5_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_7_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_7_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_7_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_7_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_7_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_3/nolabel_line111/vram/memory_array_reg_7_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_3_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_3_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_3_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_3_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_3_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_3_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_5_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_5_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_5_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_5_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_5_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_5_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_7_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_7_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_7_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_7_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_7_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/i_16/end_screen/vram/memory_array_reg_7_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:01:22 . Memory (MB): peak = 1177.352 ; gain = 536.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:01:25 . Memory (MB): peak = 1190.152 ; gain = 549.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping  Report
++----------------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name           | RTL Object       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|sram:                 | memory_array_reg | 256 K x 6(NO_CHANGE)   | W | R |                        |   |   | Port A           | 0      | 48     | 
+|sram__parameterized0: | memory_array_reg | 256 K x 6(NO_CHANGE)   | W | R |                        |   |   | Port A           | 0      | 48     | 
++----------------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_3_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_3_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_3_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_3_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_3_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_3_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_5_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_5_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_5_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_5_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_5_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_5_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_7_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_7_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_7_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_7_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_7_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/nolabel_line111/vram/memory_array_reg_7_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_3_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_3_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_3_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_3_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_3_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_3_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_5_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_5_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_5_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_5_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_5_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_5_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_7_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_7_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_7_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_7_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_7_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance top_Pong/end_screen/vram/memory_array_reg_7_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:01:29 . Memory (MB): peak = 1190.152 ; gain = 549.215
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:01:33 . Memory (MB): peak = 1190.152 ; gain = 549.215
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:01:33 . Memory (MB): peak = 1190.152 ; gain = 549.215
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:01:34 . Memory (MB): peak = 1190.152 ; gain = 549.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:01:34 . Memory (MB): peak = 1190.152 ; gain = 549.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:01:34 . Memory (MB): peak = 1190.152 ; gain = 549.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:01:34 . Memory (MB): peak = 1190.152 ; gain = 549.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |xadc_wiz_0    |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |xadc_wiz_0  |     1|
+|2     |BUFG        |     2|
+|3     |CARRY4      |   409|
+|4     |DSP48E1     |     2|
+|5     |LUT1        |   236|
+|6     |LUT2        |   402|
+|7     |LUT3        |   250|
+|8     |LUT4        |   651|
+|9     |LUT5        |   319|
+|10    |LUT6        |   255|
+|11    |MUXF7       |     8|
+|12    |RAMB36E1    |     3|
+|13    |RAMB36E1_1  |     4|
+|14    |RAMB36E1_10 |     1|
+|15    |RAMB36E1_11 |     1|
+|16    |RAMB36E1_12 |     1|
+|17    |RAMB36E1_2  |    40|
+|18    |RAMB36E1_3  |    40|
+|19    |RAMB36E1_4  |     1|
+|20    |RAMB36E1_5  |     1|
+|21    |RAMB36E1_6  |     1|
+|22    |RAMB36E1_7  |     1|
+|23    |RAMB36E1_8  |     1|
+|24    |RAMB36E1_9  |     1|
+|25    |FDRE        |   896|
+|26    |FDSE        |    10|
+|27    |LD          |    98|
+|28    |IBUF        |    16|
+|29    |OBUF        |    48|
++------+------------+------+
+
+Report Instance Areas: 
++------+--------------------+-----------------------+------+
+|      |Instance            |Module                 |Cells |
++------+--------------------+-----------------------+------+
+|1     |top                 |                       |  3724|
+|2     |  ag                |analog2game            |    50|
+|3     |  button_controller |FSR_button_controller  |    49|
+|4     |  top_ADC           |top_XADC               |   156|
+|5     |  top_Pong          |top_pong               |  3355|
+|6     |    change_mode     |increment_one          |    50|
+|7     |      d_btn0        |debounce_18            |    36|
+|8     |    clk600Hz        |clock_divider          |    52|
+|9     |    current         |score_to_7seg          |    33|
+|10    |      hex1          |num_hex                |     7|
+|11    |      hex2          |num_hex_17             |     7|
+|12    |    ec              |end_capture            |   210|
+|13    |      display       |vga640x480_16          |   165|
+|14    |    end_screen      |bg_gen                 |   143|
+|15    |      display       |vga640x480_15          |    72|
+|16    |      vram          |sram__parameterized0   |    61|
+|17    |    highest         |score_to_7seg_0        |     4|
+|18    |    nolabel_line111 |menu_screen            |   303|
+|19    |      ball          |start_square           |   104|
+|20    |      display       |vga640x480_14          |   121|
+|21    |      vram          |sram                   |    61|
+|22    |    pong            |game                   |  2462|
+|23    |      b0            |square                 |   405|
+|24    |        detectx     |debounce_12            |    43|
+|25    |        detecty     |debounce_13            |    37|
+|26    |      b1            |square__parameterized0 |   258|
+|27    |        detectx     |debounce_10            |    35|
+|28    |        detecty     |debounce_11            |    42|
+|29    |      b2            |square__parameterized1 |   258|
+|30    |        detectx     |debounce_8             |    35|
+|31    |        detecty     |debounce_9             |    42|
+|32    |      b3            |square__parameterized2 |   258|
+|33    |        detectx     |debounce_6             |    35|
+|34    |        detecty     |debounce_7             |    42|
+|35    |      b4            |square__parameterized3 |   258|
+|36    |        detectx     |debounce_4             |    35|
+|37    |        detecty     |debounce_5             |    42|
+|38    |      b5            |square__parameterized4 |   258|
+|39    |        detectx     |debounce_2             |    35|
+|40    |        detecty     |debounce_3             |    42|
+|41    |      b6            |square__parameterized5 |   258|
+|42    |        detectx     |debounce               |    35|
+|43    |        detecty     |debounce_1             |    42|
+|44    |      display       |vga640x480             |   362|
+|45    |      p1            |paddle                 |    77|
+|46    |      p2            |paddleh                |    60|
++------+--------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:01:34 . Memory (MB): peak = 1190.152 ; gain = 549.215
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 211 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:01:31 . Memory (MB): peak = 1190.152 ; gain = 539.316
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:01:34 . Memory (MB): peak = 1190.152 ; gain = 549.215
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 613 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1202.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 98 instances were transformed.
+  LD => LDCE: 98 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+344 Infos, 155 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:44 . Memory (MB): peak = 1202.828 ; gain = 816.605
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1202.828 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'X:/EC551/FinalProject/ec551_final29/ec551_final28.runs/synth_1/top_Game.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_Game_utilization_synth.rpt -pb top_Game_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  6 16:12:59 2022...

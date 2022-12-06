@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../ec551_final28.srcs/sources_1/all_sources" \
+"../../../../ec551_final28.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0_sim_netlist.v" \
+"../../../../ec551_final28.srcs/sources_1/all_sources/DigitToSeg.v" \
+"../../../../ec551_final28.srcs/sources_1/new/FSR_button_controller.v" \
+"../../../../ec551_final28.srcs/sources_1/all_sources/counter3bit.v" \
+"../../../../ec551_final28.srcs/sources_1/all_sources/decoder3_8.v" \
+"../../../../ec551_final28.srcs/sources_1/all_sources/mux4_4bus.v" \
+"../../../../ec551_final28.srcs/sources_1/all_sources/segClkDevider.v" \
+"../../../../ec551_final28.srcs/sources_1/all_sources/top.v" \
+"../../../../ec551_final28.srcs/sim_1/new/t_FSR.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

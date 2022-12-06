@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/EC551/FinalProject/Working folder 12.4/ec551_final28/ec551_final28.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xadc_wiz_0
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/EC551/FinalProject/Working folder 12.4/ec551_final28/ec551_final28.srcs/sources_1/all_sources/DigitToSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DigitToSeg
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/EC551/FinalProject/Working folder 12.4/ec551_final28/ec551_final28.srcs/sources_1/new/FSR_button_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSR_button_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/EC551/FinalProject/Working folder 12.4/ec551_final28/ec551_final28.srcs/sources_1/all_sources/counter3bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter3bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/EC551/FinalProject/Working folder 12.4/ec551_final28/ec551_final28.srcs/sources_1/all_sources/decoder3_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_3_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/EC551/FinalProject/Working folder 12.4/ec551_final28/ec551_final28.srcs/sources_1/all_sources/mux4_4bus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4_4bus
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/EC551/FinalProject/Working folder 12.4/ec551_final28/ec551_final28.srcs/sources_1/all_sources/segClkDevider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module segClkDevider
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/EC551/FinalProject/Working folder 12.4/ec551_final28/ec551_final28.srcs/sources_1/all_sources/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_XADC
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/EC551/FinalProject/Working folder 12.4/ec551_final28/ec551_final28.srcs/sim_1/new/t_FSR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_FSR
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/EC551/FinalProject/Working folder 12.4/ec551_final28/ec551_final28.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'glbl' [X:/EC551/FinalProject/Working folder 12.4/ec551_final28/ec551_final28.sim/sim_1/behav/xsim/glbl.v:6]

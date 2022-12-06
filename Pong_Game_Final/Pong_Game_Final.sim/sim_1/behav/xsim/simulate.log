@@ -1,0 +1,5 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+WARNING: file design.txt could not be opened
+ *** Warning: The analog data file design.txt for XADC instance t_FSR.uut.top_ADC.XLXI_7.inst was not found. Use the SIM_MONITOR_FILE parameter to specify the analog data file name or use the default name: design.txt.
+
