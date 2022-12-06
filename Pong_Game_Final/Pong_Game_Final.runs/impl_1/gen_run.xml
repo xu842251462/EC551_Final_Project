@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1670361062">
+  <File Type="BITSTR-BMM" Name="top_Game_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="top_Game_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="top_Game_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="top_Game_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="top_Game.tcl"/>
+  <File Type="OPT-TIMING" Name="top_Game_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="top_Game_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="top_Game_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="top_Game_reports.tcl"/>
+  <File Type="OPT-DRC" Name="top_Game_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="top_Game.hwdef"/>
+  <File Type="PWROPT-DCP" Name="top_Game_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="top_Game_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="top_Game_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="top_Game_placed.dcp"/>
+  <File Type="PLACE-IO" Name="top_Game_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="top_Game_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="top_Game_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="top_Game_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="top_Game_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="top_Game_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="top_Game_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="top_Game.bgn"/>
+  <File Type="PLACE-TIMING" Name="top_Game_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="top_Game_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="top_Game.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="top_Game_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="top_Game_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="top_Game_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="top_Game.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="top_Game_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="top_Game_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="top_Game_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="top_Game_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="top_Game_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="top_Game_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="top_Game.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="top_Game_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="top_Game.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="top_Game_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="top_Game_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="top_Game.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="top_Game_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="top_Game_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="top_Game_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="top_Game_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="top_Game_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="top_Game_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="top_Game_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="top_Game_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="top_Game_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="top_Game_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="top_Game_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="top_Game_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="top_Game_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="top_Game_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="top_Game_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="top_Game_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="top_Game_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="top_Game_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="top_Game_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="top_Game.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="top_Game_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="top_Game.rbt"/>
+  <File Type="BITSTR-NKY" Name="top_Game.nky"/>
+  <File Type="BG-DRC" Name="top_Game.drc"/>
+  <File Type="RDI-RDI" Name="top_Game.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/all_sources/DigitToSeg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/DigitToSeg.v"/>
+        <Attr Name="ImportTime" Val="1670108460"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FSR_button_controller.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/new/FSR_button_controller.v"/>
+        <Attr Name="ImportTime" Val="1670174368"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/analog2game.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/analog2game.v"/>
+        <Attr Name="ImportTime" Val="1670172236"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/bg_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working Copy 11.23/EC551_FinalProject/Analog_Pong_Game/Single Button Game/2018_ADC_Demo/Nexys-A7-100T-XADC.srcs/sources_1/imports/hdl/bg_gen.v"/>
+        <Attr Name="ImportTime" Val="1670014638"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/bram.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/bram.v"/>
+        <Attr Name="ImportTime" Val="1670119536"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/clock_divider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/clock_divider.v"/>
+        <Attr Name="ImportTime" Val="1670014638"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/counter3bit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/counter3bit.v"/>
+        <Attr Name="ImportTime" Val="1670108208"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/debounce.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/debounce.v"/>
+        <Attr Name="ImportTime" Val="1670108208"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/dec_bcd.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/dec_bcd.v"/>
+        <Attr Name="ImportTime" Val="1670108208"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/decoder3_8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/decoder3_8.v"/>
+        <Attr Name="ImportTime" Val="1670108208"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/end_capture.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/end_capture.v"/>
+        <Attr Name="ImportTime" Val="1670116702"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/game.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/game.v"/>
+        <Attr Name="ImportTime" Val="1670116612"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/increment_one.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/increment_one.v"/>
+        <Attr Name="ImportTime" Val="1670014638"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/menu_screen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/menu_screen.v"/>
+        <Attr Name="ImportTime" Val="1670108208"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/mux4_4bus.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/mux4_4bus.v"/>
+        <Attr Name="ImportTime" Val="1670108208"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/num_hex.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/num_hex.v"/>
+        <Attr Name="ImportTime" Val="1670108208"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/paddle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/paddle.v"/>
+        <Attr Name="ImportTime" Val="1670115828"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/paddleh.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/paddleh.v"/>
+        <Attr Name="ImportTime" Val="1670116152"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/score_to_7seg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/score_to_7seg.v"/>
+        <Attr Name="ImportTime" Val="1670014638"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/segClkDevider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/segClkDevider.v"/>
+        <Attr Name="ImportTime" Val="1670014638"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/square.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/square.v"/>
+        <Attr Name="ImportTime" Val="1670118994"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/sram.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/sram.v"/>
+        <Attr Name="ImportTime" Val="1670108258"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/start_square.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/start_square.v"/>
+        <Attr Name="ImportTime" Val="1670108258"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/top.v"/>
+        <Attr Name="ImportTime" Val="1670108258"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/topmodule.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/topmodule.v"/>
+        <Attr Name="ImportTime" Val="1670118690"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/vga640x480.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/vga640x480.v"/>
+        <Attr Name="ImportTime" Val="1670108258"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/top_Game.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/top_Game.v"/>
+        <Attr Name="ImportTime" Val="1670174425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_divider.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../ec551_final29/ec551_final28.srcs/sources_1/new/clk_divider.v"/>
+        <Attr Name="ImportTime" Val="1670283378"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/bg_gen.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/bg_gen.v"/>
+        <Attr Name="ImportTime" Val="1670108258"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/paddle.h">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/paddle.h"/>
+        <Attr Name="ImportTime" Val="1670108848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/sram_write.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/sram_write.v"/>
+        <Attr Name="ImportTime" Val="1670108258"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/memory_part/gameover_palette.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/memory_part/gameover_palette.mem"/>
+        <Attr Name="ImportTime" Val="1670108258"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/memory_part/over_palette.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/memory_part/over_palette.mem"/>
+        <Attr Name="ImportTime" Val="1670108258"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/memory_part/gameover.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/memory_part/gameover.mem"/>
+        <Attr Name="ImportTime" Val="1670108258"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/all_sources/memory_part/over.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Working folder 12.4/ec551_final27/ec551_final27.srcs/sources_1/all_sources/memory_part/over.mem"/>
+        <Attr Name="ImportTime" Val="1670108258"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_Game"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../EC551_FinalProject-ma/EC551_FinalProject-main/Analog_Pong_Game/Single Button Game/2018_ADC_Demo/Nexys-A7-100T-XADC.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1669399581"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="xadc_wiz_0"/>
+</GenRun>

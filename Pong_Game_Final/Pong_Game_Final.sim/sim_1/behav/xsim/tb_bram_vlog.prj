@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ec551_final27.srcs/sources_1/imports/Downloads/EC551_FinalProject-ma/EC551_FinalProject-main/memory_part/bram.v" \
+"../../../../ec551_final27.srcs/sim_1/new/tb_bram.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
