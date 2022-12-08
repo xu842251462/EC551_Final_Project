@@ -11,7 +11,7 @@ Bin Xu<br />
 Yimin Xu<br />
 
 
-We reference code from https://github.com/chmo2019/EC311_Final_Project to design our project. <br />
+We reference pong game from https://github.com/chmo2019/EC311_Final_Project to design our project. <br />
 
 Below code files are added for our project:<br />
 FSR_button_controller.v<br />
