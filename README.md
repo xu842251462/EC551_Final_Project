@@ -4,8 +4,7 @@ Bringing the Analog World to Digital Design
 
 Prof. Douglas Densmore
 
-Team member:
-
+Team member:<br /> 
 Conor Naughton<br /> 
 Bin Xu<br />
 Yimin Xu<br />
