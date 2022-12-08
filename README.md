@@ -12,7 +12,7 @@ Yimin Xu<br />
 
 We reference pong game from https://github.com/chmo2019/EC311_Final_Project to design our project. <br />
 
-Below code files are added for our project:<br />
+Below code files are added to our project:<br />
 FSR_button_controller.v<br />
 clk_divider.v<br />
 analog2game.v<br />
@@ -22,9 +22,9 @@ top_Game.v<br />
 bram.v<br />
 
 
-Below code files are modified for our project:<br />
+Below code files are modified or added more code:<br />
 topmodule.v<br />
 game.v<br />
 top_memory.v<br />
-top.v
+top.v<br />
 
