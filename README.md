@@ -1,6 +1,7 @@
 # EC551_Final_Project
 
-Bringing the Analog World to Digital Design
+Bringing the Analog World to Digital Design<br /> 
+Youtube link: https://www.youtube.com/watch?v=pn7tEva09VU<br /> 
 
 Prof. Douglas Densmore
 
