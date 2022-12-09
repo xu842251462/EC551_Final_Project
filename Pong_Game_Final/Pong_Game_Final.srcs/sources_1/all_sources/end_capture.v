@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+//create this module for getting posiiton of paddle and square of last frame of game
 module end_capture(
     input  wire CLK, // 100 Mhz clock
     output wire VGA_HS, // horizontal sync
