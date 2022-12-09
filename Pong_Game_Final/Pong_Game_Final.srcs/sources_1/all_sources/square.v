@@ -91,6 +91,7 @@ module square #(
             incy <= 1; // intialize with y speed
         end
         
+        //we need to change this block of code to pass the right end_game capture to the game, then the values will be passed to the end_capture module, also work with VGA controller
         if ((y >= D_HEIGHT - H_SIZE - 1 | x >= (D_WIDTH - H_SIZE - 1) )& toggle)  // on reset return to starting position
         begin
             endgame <= 1; // pass endgame flag
