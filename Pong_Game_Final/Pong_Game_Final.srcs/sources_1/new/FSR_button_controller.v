@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+//we use this module to control the direction of analog signal, it will output the direction_cs to the game
 module FSR_button_controller(
    input wire CLK100MHZ,
    input wire RST_BTN,
