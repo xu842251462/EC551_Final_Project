@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+//This is the top module of game, we need to change add new module to process the end game capture, pass speed and analog signal to the different module in the game
 module top_pong(
     input wire CLK, // 100 Mhz clock
     input wire RST_BTN, // reset button
@@ -89,6 +89,8 @@ module top_pong(
     reg [11:0] sq_d1_y1; 
     reg [11:0] sq_d1_y2;
     
+	
+	//we need to pass the positions of square and paddle to our end_capture module, every square and paddle have 4 points.
     game pong(.mode(mode), .CLK(CLK), .BTN_LR(BTN_LR), .VGA_HS(vga_hs), .VGA_VS(vga_vs), 
     .VGA_R(vga_r), .VGA_G(vga_g), .VGA_B(vga_b), .endgame(endgame), .score(curr_score),
     .BTN_UD(BTN_UD),
@@ -126,6 +128,8 @@ module top_pong(
     
     increment_one change_mode(.CLK(CLK), .btn(BTNC), .duty(mode)); // change mode
     
+	
+	//this module get signal from the game module, it will pass out the VGA signal to the monitor. 
     wire [3:0] VGA_R_C; // red channels
     wire [3:0] VGA_G_C; // green channels
     wire [3:0] VGA_B_C; // blue channels
@@ -156,6 +160,8 @@ module top_pong(
         .score(curr_score)
        // .record(record)
     );
+	
+	//add the ram to save the bunch of data from the pong game, we plan to replay the video, there is still some issue for using this block of code
     parameter RAM_WIDTH = 32;
 parameter RAM_ADDR_BITS = 9;
 
@@ -182,6 +188,7 @@ bram_inst
 	.input_data		(input_data		),
 	.output_data    (output_data	)
 );
+	
     always @(*)
     begin
         case(mode)
@@ -193,6 +200,8 @@ bram_inst
                     {seg, AN, VGA_R, VGA_G, VGA_B, VGA_HS, VGA_VS} = {c_seg, c_anode, vga_r, vga_g, vga_b, vga_hs, vga_vs}; // pong game
                   
                 end else 
+			
+	        // we need another state for getting the VGA data, it will be triggered by the replay switch and endgame signal
                 if(reply & endgame) 
                 begin // if game over flag triggered
                    
