@@ -21,7 +21,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+// we need figure out the how make the ball touch the paddle, and set right position of paddle
 module paddleh
     #(
     P_WIDTH=100,     // half the paddle width
