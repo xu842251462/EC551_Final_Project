@@ -18,7 +18,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
  
-
+// top module for ADC, we adjust the addressin in below code
 module top_XADC(
    input wire CLK100MHZ,
    input wire vauxp2,
@@ -164,6 +164,7 @@ module top_XADC(
                
       end
       
+ //we need to change this block of code to make sure analog signal connect to the right channel, it will pass the right value to the FPGA
       always @(posedge(CLK100MHZ))
       begin
         case(direction_cs)
