@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+//this module sends the direction and speed signal
 module analog2game(
     input wire CLK100MHZ,
     input wire RST_BTN,
