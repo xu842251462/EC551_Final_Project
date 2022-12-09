@@ -136,7 +136,7 @@ module game
         .com(com)
         ); // paddle instance
     
-    
+    //extra vertical paddle is added for the game, it works in the game, collision from square works fine
     paddleh #(.P_WIDTH(PW), .P_HEIGHT(PH), .IX(PX1), .IY(PY1)) p2(
         .endgame(endgame|!mode), //in
         .i_clk(CLK), 
