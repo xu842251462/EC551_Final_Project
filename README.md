@@ -12,7 +12,7 @@ Yimin Xu<br />
 
 
 We reference pong game from https://github.com/chmo2019/EC311_Final_Project to design our project. <br />
-I added the detail comments to our code, how do we modify, use and add new block code to make our fuction work.<br />
+I add the detail comments to our code, including how do we modify, use and add new block code to make our fuction work.<br />
 
 Below code files are added to our project:<br />
 FSR_button_controller.v<br />
